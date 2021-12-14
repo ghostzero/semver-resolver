@@ -1,0 +1,30 @@
+{
+    "name": "ghostzero/semver-resolver",
+    "description": "Semver Resolver written in PHP.",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "composer/semver": "^3.2",
+        "ramsey/uuid": "^4.2"
+    },
+    "license": "ISC",
+    "autoload": {
+        "psr-4": {
+            "GhostZero\\SemverResolver\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "René Preuß",
+            "email": "rene@preuss.io"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
